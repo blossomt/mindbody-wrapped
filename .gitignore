@@ -1,0 +1,12 @@
+# DS_Store files
+.DS_Store
+
+# Python cache files
+__pycache__/
+
+# Virtual environment
+.venv/
+
+# Generated files
+calendar.png
+data/
