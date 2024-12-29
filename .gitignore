@@ -9,4 +9,4 @@ __pycache__/
 
 # Generated files
 calendar.png
-data/
+data/*

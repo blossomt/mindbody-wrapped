@@ -21,7 +21,7 @@ This project allows you to fetch booking data from the Mindbody API, process it,
 >6. ⏰ You spent 72 hours moving this year! 
 
 ### Class calendar overview
-![Calendar](./calendar.png)
+![Calendar](./demo/calendar_sample.png)
 
 ## Usage
 

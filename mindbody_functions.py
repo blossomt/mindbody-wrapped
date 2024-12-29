@@ -1,5 +1,6 @@
 import json
 from datetime import datetime, timedelta
+import os
 import pytz
 import requests
 
@@ -68,6 +69,7 @@ def download_mindbody_data(token, output_file='./data/bookings.json'):
 
     # If we have data, save it to a file
     if all_bookings:
+        os.makedirs(os.path.dirname(output_file), exist_ok=True)
         with open(output_file, "w") as json_file:
             json.dump(all_bookings, json_file, indent=4)
         print(f"Data saved to '{output_file}'. Total items retrieved: {len(all_bookings)}")
