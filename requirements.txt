@@ -1,4 +1,4 @@
-calmap
-pandas
-pytz
-requests
+calmap==0.0.11
+pandas==2.2.3
+pytz==2024.2
+requests==2.32.3
