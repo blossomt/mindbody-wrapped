@@ -28,11 +28,11 @@ This project allows you to fetch booking data from the Mindbody API, process it,
 ### Retrieve Mindbody token
    - Log in to Mindbody: [Mindbody Explore](https://www.mindbodyonline.com/explore/)
    - Open Developer Tools in your browser (Right-click -> Inspect -> Go to the "Network" tab).
-   - Look for a network call to `bookings`.
+   - Look for a network call to `bookings`
    - Copy the **Authorization Token** from the request headers (Headers -> Request Headers -> Authorization and copy the long string after the word 'Bearer').
 
-### Running locally
-1. Install dependencies 
-   - `pip install -r requirements.txt`
-2. Enter your Mindbody token in `generate_mindbody_wrapped.ipynb`
+### Generate Mindbody Wrapped
+1. Launch Binder notebook (takes a few minutes)  
+   [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/blossomt/mindbody-wrapped/HEAD)
+2. Enter your Mindbody token when prompted in `generate_mindbody_wrapped.ipynb`
 3. Run `generate_mindbody_wrapped.ipynb` to view Mindbody Wrapped stats
